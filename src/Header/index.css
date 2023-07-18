@@ -1,0 +1,87 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    background: linear-gradient(
+        to right,
+        #ff7350 0%,
+        #ff7350 30%,
+        #1c6f8d 30%,
+        #1c6f8d 100%
+    );
+    height: 80px;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+.follow-us{
+    display: flex;
+    flex-direction: row;
+}
+.para{
+    color: #ffffff;
+    font-size: 17px;
+    font-family:"Roboto";
+    margin-top: 27px;
+    margin-left: 70px;
+
+}
+.icon{
+    margin-top: 22px;
+    color: #ffffff;
+    padding: 2px;
+}
+.call-container{
+    margin-left: 770px;
+    display: flex;  
+    flex-direction: row;
+}
+.image1{
+    margin-top: 15px;
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+}
+.call-message{
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.call-number{
+    color: #ffffff;
+    font-size: 15px;
+}
+.vl {
+    border-left: 2px solid skyblue ;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+.mail-container{
+    display: flex;  
+    flex-direction: row;
+}
+.image2{
+    margin-top: 15px;
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.mail-message{
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.mail-text{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+.mail.flex{
+    display: flex;
+    flex-direction: row;
+}

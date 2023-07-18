@@ -1,0 +1,73 @@
+.container1{
+    display: flex;
+    flex-direction: row;
+}
+.graduation-cap{
+    height: 100px;
+    width: 50px;
+    color: #ff7350;
+    
+    margin-left: 90px;
+   
+}
+.heading{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 50px;
+    color: #1c6f8d;
+}
+.heading1{
+    color: #ff7350;
+}
+
+ul{
+    list-style-type: none;
+}
+ul li{
+    float: left;
+    font-size: 20px;
+    padding: 10px;
+}
+.links{
+    margin-top: 25px;
+    margin-left: 180px;
+    
+
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: #ff7350;
+}
+.vertical{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+ul li ul li {
+    display: none;
+    color: #ff7350;
+}
+ul li:hover ul li{
+    display: block;
+}
+.search-icon{
+    margin-top: 35px;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+.admission-open{
+    background-color: #ff7350;
+    height: 70px;
+    margin-left: 40px;
+}
+.heading3{
+    margin-top: 30px;
+    color: #ffffff;
+    font-weight: none;
+}
