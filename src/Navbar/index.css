@@ -1,73 +1,43 @@
-.container1{
+.image{
+   height: 50px;
+    width: 50px;
+}
+.card{
     display: flex;
     flex-direction: row;
 }
-.graduation-cap{
-    height: 100px;
-    width: 50px;
-    color: #ff7350;
-    
-    margin-left: 90px;
-   
-}
 .heading{
     margin-left: 10px;
-    margin-top: 10px;
-    font-size: 50px;
+    margin-top: 15px;
+    font-size: 40px;
     color: #1c6f8d;
+    font-family: "Roboto";
+    
 }
 .heading1{
     color: #ff7350;
+    font-family:  sans-serif;
 }
-
-ul{
-    list-style-type: none;
-}
-ul li{
-    float: left;
-    font-size: 20px;
-    padding: 10px;
-}
-.links{
-    margin-top: 25px;
-    margin-left: 180px;
-    
-
-}
-ul li a{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-ul li a:hover{
+.graduation-cap{
+    height: 70px;
+    width: 50px;
     color: #ff7350;
+    margin-left: 90px;
+    margin-top: 8px;
 }
-.vertical{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-}
-ul li ul li {
-    display: none;
-    color: #ff7350;
-}
-ul li:hover ul li{
-    display: block;
-}
-.search-icon{
-    margin-top: 35px;
-    height: 30px;
-    width: 30px;
-    margin-left: 10px;
+.heading3{
+    padding-left: 20px;
+    margin-top: 23px;
+    color: #ffffff;
+    font-weight: none;
 }
 .admission-open{
     background-color: #ff7350;
-    height: 70px;
-    margin-left: 40px;
+    justify-content: center;
+    height: 79px;
+    width: 200px;
+    margin-left: 20px;
 }
-.heading3{
-    margin-top: 30px;
-    color: #ffffff;
-    font-weight: none;
+.button-items{
+     color:'var(--surface-900)';
 }
